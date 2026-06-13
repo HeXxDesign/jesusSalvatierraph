@@ -1,2 +1,0 @@
-# jesusSalvatierraph
-Servicios de Fotografía
