@@ -1,1 +1,350 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captura de Emociones | Fotografía Profesional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased">
 
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0">
+                    <img class="max-w-[200px]" src="img/logo_salvatierraph_negativo.png" alt="">
+                </div>
+                <div class="hidden md:flex space-x-8 text-sm uppercase tracking-wider font-medium text-stone-600">
+                    <a href="#inicio" class="hover:text-stone-900 transition ">Inicio</a>
+                    <a href="#servicios" class="hover:text-stone-900 transition ">Servicios</a>
+                    <a href="#portafolio" class="hover:text-stone-900 transition ">Portafolio</a>
+                    <a href="#invitaciones" class="hover:text-stone-900 transition ">Invitaciones</a>
+                    <a href="#contacto" class="hover:text-stone-900 transition ">Contacto</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-stone-600 hover:text-stone-900 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16 "/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-red border-b border-stone-200 px-4 pt-2 pb-4 space-y-2 uppercase text-sm tracking-wider">
+            <a href="#inicio" class="block py-2 text-stone-600 ">Inicio</a>
+            <a href="#servicios" class="block py-2 text-stone-600 ">Servicios</a>
+            <a href="#portafolio" class="block py-2 text-stone-600 ">Portafolio</a>
+            <a href="#invitaciones" class="block py-2 text-stone-600 ">Invitaciones</a>
+            <a href="#contacto" class="block py-2 text-stone-600 ">Contacto</a>
+        </div>
+    </nav>
+    <div class="p-[40px]" ></div>
+    <section id="inicio" class=" sm:h-screen  h-full relative flex items-center justify-center bg-stone-900 text-white overflow-hidden">
+        <div id="slider-background" class="absolute inset-0 opacity-40">
+            <img class="slider-img active" src="img/_MG_3224.JPG" alt="Fondo 1">
+            <img class="slider-img" src="img/51.jpg" alt="Fondo 2">
+            <img class="slider-img" src="img/_MG_3907.JPG" alt="Fondo 3">
+        </div>
+
+        <div class="relative z-10 text-center max-w-3xl p-4 ">
+            <span class="text-xs uppercase tracking-[0.3em] text-stone-300 block mb-3">Fotografía Profesional</span>
+            <h1 class="font-serif text-2xl md:text-2xl font-light mb-6 leading-tight">Mantén vivos tus recuerdos</h1>
+            <p class="text-lg md:text-xl text-stone-200 font-light mb-8 max-w-xl mx-auto">Bodas, arte en movimiento y retratos con alma.</p>
+            <a href="#contacto" class="inline-block bg-white text-stone-900 px-8 py-3.5 uppercase tracking-wider text-xs font-semibold hover:bg-stone-100 transition shadow-sm">Reserva una Sesión</a>
+            <img src="img/logo_salvatierraph.png" alt="Logo" class="mx-auto mt-6">    
+        </div>
+    </section>
+
+    <section id="servicios" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="font-serif text-4xl mb-4 font-normal">Especialidades</h2>
+            <div class="w-12 h-[1px] bg-stone-400 mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white p-8 border border-stone-100 shadow-sm hover:shadow-md transition">
+                <div class="text-stone-400 mb-6 font-serif text-xl italic">01</div>
+                <h3 class="font-serif text-2xl mb-3 font-normal">Bodas</h3>
+                <p class="text-stone-600 text-sm leading-relaxed">Documentando la magia, los nervios y el amor real. Pack completo de cobertura + opciones digitales.</p>
+            </div>
+            <div class="bg-white p-8 border border-stone-100 shadow-sm hover:shadow-md transition">
+                <div class="text-stone-400 mb-6 font-serif text-xl italic">02</div>
+                <h3 class="font-serif text-2xl mb-3 font-normal">Danza</h3>
+                <p class="text-stone-600 text-sm leading-relaxed">Fotografía de alta velocidad capturando la plasticidad, la fuerza y la efimeridad del movimiento artístico.</p>
+            </div>
+            <div class="bg-white p-8 border border-stone-100 shadow-sm hover:shadow-md transition">
+                <div class="text-stone-400 mb-6 font-serif text-xl italic">03</div>
+                <h3 class="font-serif text-2xl mb-3 font-normal">Estudio</h3>
+                <p class="text-stone-600 text-sm leading-relaxed">Retrato controlado con esquemas de iluminación editorial para marcas, perfiles o proyectos personales.</p>
+            </div>
+            <div class="bg-white p-8 border border-stone-100 shadow-sm hover:shadow-md transition">
+                <div class="text-stone-400 mb-6 font-serif text-xl italic">04</div>
+                <h3 class="font-serif text-2xl mb-3 font-normal">Al Aire Libre</h3>
+                <p class="text-stone-600 text-sm leading-relaxed">Sesiones casuales aprovechando la luz dorada natural en locaciones exteriores que cuenten tu historia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portafolio" class="py-24 bg-stone-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="font-serif text-4xl mb-4 font-normal">El Portafolio</h2>
+                <p class="text-stone-500 text-sm">Filtra por categoría para ver los trabajos recientes</p>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4 mb-12 uppercase text-xs tracking-wider font-semibold">
+                <button onclick="filterPortfolio('todos')" class="filter-btn px-6 py-2 border-b-2 border-stone-900 text-stone-900">Todos</button>
+                <button onclick="filterPortfolio('bodas')" class="filter-btn px-6 py-2 border-b-2 border-transparent text-stone-500 hover:text-stone-900">Bodas</button>
+                <button onclick="filterPortfolio('danza')" class="filter-btn px-6 py-2 border-b-2 border-transparent text-stone-500 hover:text-stone-900">Danza</button>
+                <button onclick="filterPortfolio('retrato')" class="filter-btn px-6 py-2 border-b-2 border-transparent text-stone-500 hover:text-stone-900">Retrato</button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery">
+                <div class="gallery-item bodas relative group overflow-hidden bg-stone-200 aspect-[9/6]">
+                    <img src="img/18.jpg" alt="Boda" class="object-cover w-full h-full group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-end p-6 text-white">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-stone-300">Sesión de Bodas</p>
+                            <h4 class="font-serif text-xl">Claudia & Eduardo</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item bodas relative group overflow-hidden bg-stone-200 aspect-[9/6]">
+                    <img src="img/73.jpg" alt="Boda" class="object-cover w-full h-full group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-end p-6 text-white">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-stone-300">Sesión de Bodas</p>
+                            <h4 class="font-serif text-xl">Claudia & Eduardo</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item bodas relative group overflow-hidden bg-stone-200 aspect-[9/6]">
+                    <img src="img/76.jpg" alt="Boda" class="object-cover w-full h-full group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-end p-6 text-white">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-stone-300">Sesión de Bodas</p>
+                            <h4 class="font-serif text-xl">Claudia & Eduardo</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item danza relative group overflow-hidden bg-stone-200 aspect-[9/6]">
+                    <img src="img/_MG_4557.jpg" alt="Danza" class="object-cover w-full h-full group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-end p-6 text-white">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-stone-300">Baile de salón</p>
+                            <h4 class="font-serif text-xl">Ballroom Movies Show</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item danza relative group overflow-hidden bg-stone-200 aspect-[9/6]">
+                    <img src="img/_MG_3966.jpg" alt="Danza" class="object-cover w-full h-full group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-end p-6 text-white">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-stone-300">Baile de salón</p>
+                            <h4 class="font-serif text-xl">Ballroom Movies Show</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item danza relative group overflow-hidden bg-stone-200 aspect-[9/6]">
+                    <img src="img/_MG_3907.JPG" alt="Danza" class="object-cover w-full h-full group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-end p-6 text-white">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-stone-300">Baile de salón</p>
+                            <h4 class="font-serif text-xl">Ballroom Movies Show</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item retrato relative group overflow-hidden bg-stone-200 aspect-[4/5]">
+                    <img src="img/_MG_3211.JPG" alt="Retrato Exterior" class="object-cover w-full h-full group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-end p-6 text-white">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-stone-300">Al Aire Libre</p>
+                            <h4 class="font-serif text-xl">Luz de Atardecer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item retrato relative group overflow-hidden bg-stone-200 aspect-[4/5]">
+                    <img src="img/_MG_3376.JPG" alt="Retrato Exterior" class="object-cover w-full h-full group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-end p-6 text-white">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-stone-300">Al Aire Libre</p>
+                            <h4 class="font-serif text-xl">Luz de Atardecer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item retrato relative group overflow-hidden bg-stone-200 aspect-[4/5]">
+                    <img src="img/_MG_3128.JPG" alt="Retrato Exterior" class="object-cover w-full h-full group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-end p-6 text-white">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-stone-300">Al Aire Libre</p>
+                            <h4 class="font-serif text-xl">Luz de Atardecer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="invitaciones" class="py-24 bg-stone-900 text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                
+                <div class="space-y-6">
+                    <span class="text-xs uppercase tracking-[0.2em] text-stone-400 font-semibold block">Nuevo Servicio Exclusivo</span>
+                    <h2 class="font-serif text-4xl md:text-5xl font-light leading-tight">Invitaciones Digitales <br><span class="italic text-stone-300">& Sitios Web de Boda</span></h2>
+                    <p class="text-stone-300 text-sm md:text-base leading-relaxed font-light max-w-lg">
+                        Complementa tu sesión preboda con una invitación interactiva única. Un espacio web personalizado para tus invitados con confirmación de asistencia en línea, mapa de la locación, mesa de regalos y contador regresivo.
+                    </p>
+                    
+                    <div class="p-6 bg-white/5 border border-white/10 rounded-sm inline-block">
+                        <p class="text-xs font-semibold text-amber-200 uppercase tracking-wider mb-1">🔥 Pack Recomendado</p>
+                        <p class="text-lg font-serif">Sesión Fotográfica + Diseño de Invitación Digital</p>
+                    </div>
+
+                    <div class="pt-4">
+                        <a href="#contacto" class="inline-block bg-white text-stone-900 px-8 py-3 text-xs uppercase tracking-wider font-semibold hover:bg-stone-100 transition">Ver DEMO</a>
+                    </div>
+                </div>
+
+                <div class="flex justify-center ">
+                    <div class="w-72 h-[580px] bg-white text-stone-900 rounded-[2.5rem] shadow-2xl border-8 border-stone-800 relative overflow-hidden flex flex-col justify-between p-6 text-center">
+                        <div class="border border-stone-200 h-full w-full rounded-[1.5rem] p-4 flex flex-col justify-center bg-stone-50">
+                            <img src="img/invitaciones digitales.png" alt="">
+                            <button class="bg-blue-900 text-white text-[9px] uppercase tracking-wider py-2 px-4 rounded-sm font-semibold mb-4 w-full">Confirmar Asistencia</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="font-serif text-4xl mb-4 font-normal">Hablemos de tu Proyecto</h2>
+            <p class="text-stone-500 text-sm">Cuéntame tus ideas y creemos algo increíble juntos.</p>
+        </div>
+
+        <form class="space-y-6" action="#" method="POST">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Nombre Completo</label>
+                    <input type="text" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" required>
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Correo Electrónico</label>
+                    <input type="email" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" required>
+                </div>
+            </div>
+            <div>
+                <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">¿Qué servicio te interesa?</label>
+                <select class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition text-stone-600">
+                    <option>Pack: Boda + Invitación Digital</option>
+                    <option>Solo Sesión de Bodas</option>
+                    <option>Sesión de Danza</option>
+                    <option>Retrato (Estudio o Al Aire Libre)</option>
+                    <option>Solo Invitaciones Digitales</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Detalles del evento o idea</label>
+                <textarea rows="4" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" placeholder="Fecha estimada, locación, dudas..."></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit"  class="bg-stone-900 text-white px-12 py-5 text-xs uppercase tracking-wider font-semibold hover:bg-stone-800 transition shadow-sm w-full md:w-auto"><a href="mailto:jesusalvatierra850@gmail.com">Enviar Mensaje </a> </button>
+                <div class="flex justify-center "> 
+                    <div class="w-72 h-[480px] bg-white text-stone-900 rounded-[2.5rem] mt-6 shadow-2xl border-4 border-stone-400 relative overflow-hidden flex flex-col justify-between p-6 text-center">
+                        <div class="grid-cols-2 justify-items-center p-5">
+                            <img src="img/whapp.png" class="max-w-40"  alt="logo de whatsapp">
+                        <div class="grid grid-cols-1 justify-items-center p-5 items-center" >
+                            <div class="p-3"> LLÁMANOS O ENVÍANOS UN MENSAJE PÁRA MÁS INFORMACIÓN</div>
+                                <button class="bg-green-600 rounded-lg  h-30 text-white
+                                w-full text-xl
+                                transition-opacity duration-300 active:opacity-50
+                                w-[calc(50%-1rem)] max-w-sm rounded-xl shadow-md overflow-hidden 
+                                transition-all duration-200 cursor-pointer
+                                hover:shadow-xl active:scale-95 p-1" >   
+                                    <a href="https://wa.link/hkue80"> Escríbenos al Whatsapp </a>  
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer class="bg-white border-t border-stone-200 py-8 text-center text-xs uppercase tracking-widest text-stone-500">
+        <p>&copy; 2026 Jesús Salvatierra PH. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Lógica del Menú Móvil
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Lógica de Filtrado del Portafolio
+        function filterPortfolio(category) {
+            const items = document.querySelectorAll('.gallery-item');
+            const buttons = document.querySelectorAll('.filter-btn');
+
+            // Actualizar estilo del botón activo
+            buttons.forEach(btn => {
+                btn.classList.remove('border-stone-900', 'text-stone-900');
+                btn.classList.add('border-transparent', 'text-stone-500');
+            });
+            event.target.classList.remove('border-transparent', 'text-stone-500');
+            event.target.classList.add('border-stone-900', 'text-stone-900');
+
+            // Mostrar/Ocultar elementos
+            items.forEach(item => {
+                if (category === 'todos') {
+                    item.style.display = 'block';
+                } else {
+                    if (item.classList.contains(category)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                }
+            });
+        }
+    </script>
+    <script>document.addEventListener("DOMContentLoaded", () => {
+        const imagenes = document.querySelectorAll('.slider-img');
+        let indexActual = 0;
+        
+        // Tiempo en milisegundos que dura cada imagen en pantalla (6000ms = 6 segundos)
+        const tiempoCambio = 4000; 
+
+        function cambiarImagen() {
+            // Quita la opacidad a la imagen actual
+            imagenes[indexActual].classList.remove('active');
+
+            // Pasa a la siguiente imagen (vuelve a 0 si llega al final)
+            indexActual = (indexActual + 1) % imagenes.length;
+
+            // Le da opacidad a la nueva imagen
+            imagenes[indexActual].classList.add('active');
+        }
+
+        // Ejecuta la función cada cierto tiempo si hay más de una imagen
+        if (imagenes.length > 1) {
+            setInterval(cambiarImagen, tiempoCambio);
+        }
+        });
+    </script>
+</body>
+</html>
