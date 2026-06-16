@@ -286,63 +286,64 @@
             </div>
         </form>
     </section> -->
-     <section id="contacto" class="py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="font-serif text-4xl mb-4 font-normal">Hablemos de tu Proyecto</h2>
-                <p class="text-stone-500 text-sm">Cuéntame tus ideas y creemos algo increíble juntos.</p>
+   <section id="contacto" class="py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="font-serif text-4xl mb-4 font-normal">Hablemos de tu Proyecto</h2>
+            <p class="text-stone-500 text-sm">Cuéntame tus ideas y creemos algo increíble juntos.</p>
+        </div>
+
+        <form class="space-y-6"   method="POST">
+            
+            <input type="hidden" name="_subject" value="¡Nueva consulta de proyecto desde la Web!">
+            <input type="hidden" name="_captcha" value="false"> <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Nombre Completo</label>
+                    <input type="text" name="nombre" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" required>
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Correo Electrónico</label>
+                    <input type="email" name="email" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" required>
+                </div>
             </div>
-    
-            <form class="space-y-6"  method="POST">
+            
+            <div>
+                <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">¿Qué servicio te interesa?</label>
+                <select name="servicio" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition text-stone-600">
+                    <option value="Pack: Boda + Invitación Digital">Pack: Boda + Invitación Digital</option>
+                    <option value="Solo Sesión de Bodas">Solo Sesión de Bodas</option>
+                    <option value="Sesión de Danza">Sesión de Danza</option>
+                    <option value="Retrato (Estudio o Al Aire Libre)">Retrato (Estudio o Al Aire Libre)</option>
+                    <option value="Solo Invitaciones Digitales">Solo Invitaciones Digitales</option>
+                </select>
+            </div>
+            
+            <div>
+                <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Detalles del evento o idea</label>
+                <textarea name="detalles" rows="4" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" placeholder="Fecha estimada, locación, dudas..."></textarea>
+            </div>
+            
+            <div class="text-center">
+                <button formaction="https://formsubmit.co/jesusalvatierra850@gmail.com" type="submit" class="bg-stone-900 text-white px-12 py-5 text-xs uppercase tracking-wider font-semibold hover:bg-stone-800 transition shadow-sm w-full md:w-auto">
+                    Enviar Mensaje
+                </button>
                 
-                <input type="hidden" name="_subject" value="¡Nueva consulta de proyecto desde la Web!">
-                <input type="hidden" name="_captcha" value="false"> <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Nombre Completo</label>
-                        <input type="text" name="nombre" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" required>
-                    </div>
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Correo Electrónico</label>
-                        <input type="email" name="email" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" required>
-                    </div>
-                </div>
-                
-                <div>
-                    <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">¿Qué servicio te interesa?</label>
-                    <select name="servicio" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition text-stone-600">
-                        <option value="Pack: Boda + Invitación Digital">Pack: Boda + Invitación Digital</option>
-                        <option value="Solo Sesión de Bodas">Solo Sesión de Bodas</option>
-                        <option value="Sesión de Danza">Sesión de Danza</option>
-                        <option value="Retrato (Estudio o Al Aire Libre)">Retrato (Estudio o Al Aire Libre)</option>
-                        <option value="Solo Invitaciones Digitales">Solo Invitaciones Digitales</option>
-                    </select>
-                </div>
-                
-                <div>
-                    <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Detalles del evento o idea</label>
-                    <textarea name="detalles" rows="4" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" placeholder="Fecha estimada, locación, dudas..."></textarea>
-                </div>
-                
-                <div class="text-center">
-                    <button formaction="https://formsubmit.co/jesusalvatierra850@gmail.com" type="submit" class="bg-stone-900 text-white px-12 py-5 text-xs uppercase tracking-wider font-semibold hover:bg-stone-800 transition shadow-sm w-full md:w-auto">
-                        Enviar Mensaje
-                    </button>
-                    
-                    <div class="flex justify-center "> 
-                        <div class="w-72 h-[480px] bg-white text-stone-900 rounded-[2.5rem] mt-6 shadow-2xl border-4 border-stone-400 relative overflow-hidden flex flex-col justify-between p-6 text-center">
-                            <div class="grid-cols-2 justify-items-center p-5">
-                                <img src="img/whapp.png" class="max-w-40" alt="logo de whatsapp">
-                                <div class="grid grid-cols-1 justify-items-center p-5 items-center" >
-                                    <div class="p-3"> LLÁMANOS O ENVÍANOS UN MENSAJE PÁRA MÁS INFORMACIÓN</div>
-                                    <button class="bg-green-600 rounded-lg h-30 text-white w-full text-xl transition-opacity duration-300 active:opacity-50 w-[calc(50%-1rem)] max-w-sm rounded-xl shadow-md overflow-hidden transition-all duration-200 cursor-pointer hover:shadow-xl active:scale-95 p-1" type="button">   
-                                        <a href="https://wa.link/hkue80" class="block w-full h-full"> Escríbenos al Whatsapp </a>  
-                                    </button>
-                                </div>
+                <div class="flex justify-center "> 
+                    <div class="w-72 h-[480px] bg-white text-stone-900 rounded-[2.5rem] mt-6 shadow-2xl border-4 border-stone-400 relative overflow-hidden flex flex-col justify-between p-6 text-center">
+                        <div class="grid-cols-2 justify-items-center p-5">
+                            <img src="img/whapp.png" class="max-w-40" alt="logo de whatsapp">
+                            <div class="grid grid-cols-1 justify-items-center p-5 items-center" >
+                                <div class="p-3"> LLÁMANOS O ENVÍANOS UN MENSAJE PÁRA MÁS INFORMACIÓN</div>
+                                <button class="bg-green-600 rounded-lg h-30 text-white w-full text-xl transition-opacity duration-300 active:opacity-50 w-[calc(50%-1rem)] max-w-sm rounded-xl shadow-md overflow-hidden transition-all duration-200 cursor-pointer hover:shadow-xl active:scale-95 p-1" type="button">   
+                                    <a href="https://wa.link/hkue80" class="block w-full h-full"> Escríbenos al Whatsapp </a>  
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </form>
-        </section>
+            </div>
+        </form>
+    </section>
+
     <footer class="bg-white border-t border-stone-200 py-8 text-center text-xs uppercase tracking-widest text-stone-500">
         <p>&copy; 2026 Jesús Salvatierra PH. Todos los derechos reservados.</p>
     </footer>
