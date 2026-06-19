@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <!-- Iconos de Font Awesome para el logo de WhatsApp -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
         body { font-family: 'Inter', sans-serif; }
@@ -56,66 +58,88 @@
 
         <div class="relative z-10 text-center max-w-3xl p-4 ">
             <span class="text-xs uppercase tracking-[0.3em] text-stone-300 block mb-3">Fotografía Profesional</span>
-            <h1 class="font-serif text-2xl md:text-2xl font-light mb-6 leading-tight">Mantén vivos tus recuerdos</h1>
-            <!-- <option value="Sesión de Estudio / Al Aire Libre - 200 Bs">Sesión de Estudio / Al Aire Libre (200 Bs)</option> -->
+            <h1 class="font-serif text-2xl md:text-2xl font-light mb-6 leading-tight">Capturando la esencia de profesionales, artistas y marcas</h1>
             <img src="img/logo_salvatierraph.png" alt="Logo" class="mx-auto mt-6 w-1/2">    
         </div>
     </section>
    
-    <section id="servicios" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-2xl mx-auto mb-16">
-            <h2 class="font-serif text-4xl mb-4 font-normal">Nuestros Servicios</h2>
-            <div class="w-12 h-[1px] bg-stone-400 mx-auto"></div>
+
+<section id="servicios" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="font-serif text-4xl mb-4 font-normal">Nuestros Servicios</h2>
+        <div class="w-12 h-[1px] bg-stone-400 mx-auto"></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <div class="relative overflow-hidden bg-stone-400 p-8 border border-stone-100 shadow-sm hover:shadow-md transition flex flex-col justify-between group h-full min-h-[400px]">
+            <img src="img/ribecola.jpg" alt="Marca Personal" class="absolute inset-0 w-full h-full object-cover opacity-100 transition-transform duration-500 group-hover:scale-105">
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-stone-900/40 to-stone-900/20"></div>
+            
+            <div class="relative z-10">
+                <div class="text-stone-300 mb-6 font-serif text-xl italic">01</div>
+                <h3 class="font-serif text-2xl mb-3 font-normal text-white">Sesiones de Marca Personal y Autoridad</h3>
+                <p class="text-stone-200 text-sm leading-relaxed mb-4">Fotografía de Marca Personal para Profesionales, Ejecutivos y Emprendedores. Eleva tu presencia en LinkedIn, web y redes con retratos de alto impacto corporativo.</p>
+            </div>
+            <div class="relative z-10 mt-4 pt-4 border-t border-stone-700">
+                <a href="#contacto" class="block w-full">
+                    <button class="bg-stone-500 text-white text-[15px] hover:bg-stone-600 uppercase tracking-wider py-2 px-4 rounded-md font-semibold mb-4 w-full transition-colors">Elegir</button>
+                </a>
+            </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="bg-white p-8 border border-stone-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
-                <div>
-                    <div class="text-stone-400 mb-6 font-serif text-xl italic">01</div>
-                    <h3 class="font-serif text-2xl mb-3 font-normal">Fotografía de Estudio y Exterior</h3>
-                    <p class="text-stone-600 text-sm leading-relaxed mb-4">Retrato controlado con esquemas de iluminación editorial o sesiones casuales aprovechando la luz dorada natural.</p>
-                </div>
-                <div class="mt-4 pt-4 border-t border-stone-100">
-                    <span class="text-xs uppercase tracking-widest text-stone-400 block">Inversión</span>
-                    <span class="text-xl font-serif text-stone-900 font-semibold">200 Bs</span>
-                </div>
+        <div class="relative overflow-hidden bg-stone-100 p-8 border border-stone-100 shadow-sm hover:shadow-md transition flex flex-col justify-between group h-full min-h-[400px]">
+            <img src="img/caporalita.jpg" alt="Academias" class="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-500 group-hover:scale-105">
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-stone-900/40 to-stone-900/20"></div>
+            
+            <div class="relative z-10">
+                <div class="text-stone-300 mb-6 font-serif text-xl italic">02</div>
+                <h3 class="font-serif text-2xl mb-3 font-normal text-white">Producción Visual para Academias</h3>
+                <p class="text-stone-200 text-sm leading-relaxed mb-4">Fotografía y video de Artes Escénicas. Capturamos la belleza del movimiento para tus campañas de inscripción y material promocional de tu academia.</p>
             </div>
-            <div class="bg-white p-8 border border-stone-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
-                <div>
-                    <div class="text-stone-400 mb-6 font-serif text-xl italic">02</div>
-                    <h3 class="font-serif text-2xl mb-3 font-normal">Cobertura en Escenario</h3>
-                    <p class="text-stone-600 text-sm leading-relaxed mb-4">Fotografía de alta velocidad capturando la belleza y el arte en movimiento.</p>
-                </div>
-                <div class="mt-4 pt-4 border-t border-stone-100">
-                    <span class="text-xs uppercase tracking-widest text-stone-400 block">Inversión</span>
-                    <span class="text-xl font-serif text-stone-900 font-semibold">300 Bs</span>
-                </div>
-            </div>
-            <div class="bg-white p-8 border border-stone-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
-                <div>
-                    <div class="text-stone-400 mb-6 font-serif text-xl italic">03</div>
-                    <h3 class="font-serif text-2xl mb-3 font-normal">Invitaciones Digitales</h3>
-                    <p class="text-stone-600 text-sm leading-relaxed mb-4">Diseño interactivo personalizado con confirmación de asistencia en línea, mapas, cuenta regresiva y más.</p>
-                </div>
-                <div class="mt-4 pt-4 border-t border-stone-100">
-                    <span class="text-xs uppercase tracking-widest text-stone-400 block">Inversión</span>
-                    <span class="text-xl font-serif text-stone-900 font-semibold">350 Bs</span>
-                </div>
-            </div>
-            <div class="bg-black p-8 border text-yellow-300 shadow-sm hover:shadow-md transition flex flex-col justify-between text-white">
-                
-                <div>
-                    <div class="text-stone-300 mb-6 font-serif text-xl italic">04</div>
-                    <h3 class="font-serif text-2xl mb-3 font-normal">Bodas Pequeñas</h3>
-                    <p class="text-stone-300 text-sm leading-relaxed mb-4">Documentando la magia, los nervios y el amor real. Pack completo de cobertura + opciones digitales.</p>
-                </div>
-                <div class="mt-4 pt-4 border-t border-yellow-200">
-                    <span class="text-xs uppercase tracking-widest text-stone-400 block">Inversión</span>
-                    <span class="text-xl font-serif text-yellow-300 font-semibold">900 Bs</span>
-                </div>
+            <div class="relative z-10 mt-4 pt-4 border-t border-stone-700">
+                <a href="#contacto" class="block w-full">
+                    <button class="bg-stone-500 text-white text-[15px] hover:bg-stone-600 uppercase tracking-wider py-2 px-4 rounded-md font-semibold mb-4 w-full transition-colors">Elegir</button>
+                </a>
             </div>
         </div>
-    </section>
+
+        <div class="relative overflow-hidden bg-stone-500 p-8 border border-stone-100 shadow-sm hover:shadow-md transition flex flex-col justify-between group h-full min-h-[400px]">
+            <img src="img/invitaciones digitales.png" alt="Bodas Pequeñas" class="absolute inset-0 w-full h-full object-cover opacity-40 transition-transform duration-500 group-hover:scale-105">
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-stone-900/40 to-stone-900/20"></div>
+            
+            
+            <div class="relative z-10">
+                <div class="text-stone-300 mb-6 font-serif text-xl italic">03</div>
+                <h3 class="font-serif text-2xl mb-3 font-normal text-white">Invitaciones Digitales</h3>
+                <p class="text-stone-200 text-sm leading-relaxed mb-4">Diseño interactivo personalizado con confirmación de asistencia en línea, mapas, cuenta regresiva y más.</p>
+            </div>
+            <div class="relative z-10 mt-4 pt-4 border-t border-stone-700">
+                <a href="#contacto" class="block w-full">
+                    <button class="bg-stone-500 text-white text-[15px] hover:bg-stone-600 uppercase tracking-wider py-2 px-4 rounded-md font-semibold mb-4 w-full transition-colors">Elegir</button>
+                </a>
+            </div>
+        </div>
+        
+        <div class="relative overflow-hidden bg-stone-500 p-8 border border-stone-100 shadow-sm hover:shadow-md transition flex flex-col justify-between group h-full min-h-[400px]">
+            <img src="img/beso.jpg" alt="Bodas Pequeñas" class="absolute inset-0 w-full h-full object-cover opacity-40 transition-transform duration-500 group-hover:scale-105">
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-stone-900/40 to-stone-900/20"></div>
+            
+            <div class="relative z-10">
+                <div class="text-stone-300 mb-6 font-serif text-xl italic">04</div>
+                <h3 class="font-serif text-2xl mb-3 font-normal text-white">Bodas Pequeñas</h3>
+                <p class="text-stone-200 text-sm leading-relaxed mb-4">Documentando la magia, los nervios y el amor real. Pack completo de cobertura + opciones digitales.</p>
+            </div>
+            <div class="relative z-10 mt-4 pt-4 border-t border-stone-700">
+                <a href="#contacto" class="block w-full">
+                    <button class="bg-stone-500 text-white text-[15px] hover:bg-stone-600 uppercase tracking-wider py-2 px-4 rounded-md font-semibold mb-4 w-full transition-colors">Elegir</button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 
     <section id="portafolio" class="py-24 bg-stone-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -227,7 +251,7 @@
                             <button class="bg-blue-900 text-white text-[9px] uppercase tracking-wider py-2 px-4 rounded-sm font-semibold mb-4 w-full">Confirmar Asistencia</button>
                         </div>
                         <div class="flex pt-4 justify-center ">
-                        <a href="https://hexxdesign.github.io/boda_claudia_y_eduardo/" class="inline-block bg-blue-900 text-white px-8 py-3 text-xs uppercase tracking-wider font-semibold hover:bg-blue-500 hover:text-white transition">Ver DEMO</a>
+                        <a href="https://hexxdesign.github.io/boda_claudia_y_eduardo/" class="inline-block bg-red-500 text-white px-8 py-3 text-xs uppercase tracking-wider font-semibold hover:bg-red-900 hover:text-white transition">Ver DEMO</a>
                 </div>
                     </div>
                 </div>
@@ -250,126 +274,103 @@
         </div>
     </section>
 
-    <!-- <section id="contacto" class="py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- FOTO 1: Fondo general de toda la sección de contacto -->
+<!-- Añadimos 'relative' y 'overflow-hidden' para que la imagen de fondo no se salga de los bordes -->
+<section id="contacto" class="py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative overflow-hidden rounded-2xl bg-stone-300">
+    
+    <!-- IMAGEN DE FONDO 1: Controla la opacidad aquí (ej. opacity-10, opacity-20) para que se lea bien el texto -->
+    <div class="absolute inset-0 pointer-events-none opacity-15 z-0">
+        <img src="img/llamera.jpg" alt="Fondo sección" class="w-full h-full object-cover">
+    </div>
+
+    <!-- Contenido de la sección (con z-10 para asegurar que se posicione sobre el fondo) -->
+    <div class="relative z-10">
+        
         <div class="text-center mb-16">
             <h2 class="font-serif text-4xl mb-4 font-normal">Hablemos de tu Proyecto</h2>
             <p class="text-stone-500 text-sm">Cuéntame tus ideas y creemos algo increíble juntos.</p>
         </div>
 
-        <form class="space-y-6" action="#" method="POST">
+        <form id="wedding-contact-form" class="space-y-6" method="POST">
+            
+            <input type="hidden" name="_subject" value="¡Nueva consulta de proyecto desde la Web!">
+            <input type="hidden" name="_captcha" value="false"> 
+            
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                     <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Nombre Completo</label>
-                    <input type="text" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" required>
+                    <input type="text" name="nombre" placeholder="Tu nombre completo" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition opacity-75" required>
                 </div>
                 <div>
                     <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Correo Electrónico</label>
-                    <input type="email" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" required>
-                </div>
-            </div>
-            <div>
-                <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">¿Qué servicio te interesa?</label>
-                <select class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition text-stone-600">
-                    <option>Pack: Boda + Invitación Digital</option>
-                    <option>Solo Sesión de Bodas</option>
-                    <option>Sesión de Danza</option>
-                    <option>Retrato (Estudio o Al Aire Libre)</option>
-                    <option>Solo Invitaciones Digitales</option>
-                </select>
-            </div>
-            <div>
-                <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Detalles del evento o idea</label>
-                <textarea rows="4" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" placeholder="Fecha estimada, locación, dudas..."></textarea>
-            </div>
-            <div class="text-center"> 
-              <button type="submit"  class="bg-stone-900 text-white px-12 py-5 text-xs uppercase tracking-wider font-semibold hover:bg-stone-800 transition shadow-sm w-full md:w-auto"><a href="mailto:jesusalvatierra850@gmail.com">Enviar Mensaje </a> </button>  
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jesusalvatierra850@gmail.com&su=Consulta+desde+la+Web" 
-   class="inline-block text-center bg-stone-900 text-white px-12 py-5 text-xs uppercase tracking-wider font-semibold hover:bg-stone-800 transition shadow-sm w-full md:w-auto">
-   Enviar Mensaje
-</a>
-                <div class="flex justify-center "> 
-                    <div class="w-72 h-[480px] bg-white text-stone-900 rounded-[2.5rem] mt-6 shadow-2xl border-4 border-stone-400 relative overflow-hidden flex flex-col justify-between p-6 text-center">
-                        <div class="grid-cols-2 justify-items-center p-5">
-                            <img src="img/whapp.png" class="max-w-40"  alt="logo de whatsapp">
-                        <div class="grid grid-cols-1 justify-items-center p-5 items-center" >
-                            <div class="p-3"> LLÁMANOS O ENVÍANOS UN MENSAJE PÁRA MÁS INFORMACIÓN</div>
-                                <button class="bg-green-600 rounded-lg  h-30 text-white
-                                w-full text-xl
-                                transition-opacity duration-300 active:opacity-50
-                                w-[calc(50%-1rem)] max-w-sm rounded-xl shadow-md overflow-hidden 
-                                transition-all duration-200 cursor-pointer
-                                hover:shadow-xl active:scale-95 p-1" >   
-                                    <a href="https://wa.link/hkue80"> Escríbenos al Whatsapp </a>  
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </section>  -->
-    <section id="contacto" class="py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-            <h2 class="font-serif text-4xl mb-4 font-normal">Hablemos de tu Proyecto</h2>
-            <p class="text-stone-500 text-sm">Cuéntame tus ideas y creemos algo increíble juntos.</p>
-        </div>
-
-        <form  id="wedding-contact-form" class= "space-y-6"   method="POST">
-            
-            <input type="hidden" name="_subject" value="¡Nueva consulta de proyecto desde la Web!">
-            <input type="hidden" name="_captcha" value="false"> <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                    <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Nombre Completo</label>
-                    <input type="text" name="nombre" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" required>
-                </div>
-                <div>
-                    <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Correo Electrónico</label>
-                    <input type="email" name="email" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" required>
+                    <input type="email" name="email" placeholder="correo@gmail.com" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition opacity-75" required>
                 </div>
             </div>
             
             <div>
                 <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">¿Qué servicio te interesa?</label>
-                 <select name="servicio" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition text-stone-600">
-                    <option value="Sesión de Estudio / Al Aire Libre - 200 Bs">Sesión de Estudio / Exterior (200 Bs)</option>
-                    <option value="Cobertura en Escenario - 300 Bs">Cobertura en Escenario (300 Bs)</option>
-                    <option value="Solo Sesión de Bodas - 900 Bs">Solo Sesión de Bodas (900 Bs)</option>
-                    <option value="Solo Invitaciones Digitales - 350 Bs">Solo Invitaciones Digitales (350 Bs)</option>
-                    <option value="Sesión de Bodas + Invitaciones Digitales - 1,000 Bs">Sesión de Bodas + Invitaciones Digitales (1,000 Bs)</option>
+                <select name="servicio" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition text-stone-600 opacity-75">
+                    <option value="Sesión de Estudio / Al Aire Libre">Sesión de Estudio / Exterior </option>
+                    <option value="Cobertura en Escenario">Cobertura en Escenario </option>
+                    <option value="Solo Sesión de Bodas">Solo Sesión de Bodas </option>
+                    <option value="Solo Invitaciones Digitales ">Solo Invitaciones Digitales </option>
+                    <option value="Sesión de Bodas + Invitaciones Digitales">Sesión de Bodas + Invitaciones Digitales </option>
                     <option value="Pack Personalizado">Pack Personalizado</option>
                 </select>
             </div>
             
             <div>
                 <label class="block text-xs uppercase tracking-wider font-semibold text-stone-600 mb-2">Detalles del evento o idea</label>
-                <textarea name="detalles" rows="4" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline-none focus:border-stone-500 transition" placeholder="Fecha estimada, locación, dudas..."></textarea>
+                <textarea name="detalles" rows="4" class="w-full bg-white border border-stone-200 px-4 py-3 text-sm focus:outline0-none focus:border-stone-500 transition opacity-75"  placeholder="Fecha estimada, locación, dudas..."></textarea>
             </div>
             
             <div class="text-center">
-                <button formaction="https://formsubmit.co/jesusalvatierra850@gmail.com" type="submit" class="bg-stone-900 text-white px-12 py-5 text-xs uppercase tracking-wider font-semibold hover:bg-stone-800 transition shadow-sm w-full md:w-auto">
+                <button formaction="https://formsubmit.co/jesusalvatierra850@gmail.com" type="submit" class="rounded-md bg-stone-900 text-white px-12 py-5 text-xs uppercase tracking-wider font-semibold hover:bg-stone-800 transition shadow-sm w-full md:w-auto">
                     Enviar Mensaje
                 </button>
                 
-                <div class="flex justify-center "> 
+                <div class="flex justify-center"> 
+                    
+                    <!-- FOTO 2: Fondo exclusivo de la tarjeta de WhatsApp -->
                     <div class="w-72 h-[480px] bg-white text-stone-900 rounded-[2.5rem] mt-6 shadow-2xl border-4 border-stone-400 relative overflow-hidden flex flex-col justify-between p-6 text-center">
-                        <div class="grid-cols-2 justify-items-center p-5">
-                            <img src="img/whapp.png" class="max-w-40" alt="logo de whatsapp">
-                            <div class="grid grid-cols-1 justify-items-center p-5 items-center" >
-                                <div class="p-3"> LLÁMANOS O ENVÍANOS UN MENSAJE PÁRA MÁS INFORMACIÓN</div>
-                                <button class="bg-green-600 rounded-lg h-30 text-white w-full text-xl transition-opacity duration-300 active:opacity-50 w-[calc(50%-1rem)] max-w-sm rounded-xl shadow-md overflow-hidden transition-all duration-200 cursor-pointer hover:shadow-xl active:scale-95 p-1" type="button">   
-                                    <a href="https://wa.link/hkue80" class="block w-full h-full"> Escríbenos al Whatsapp </a>  
+                        
+                        <!-- IMAGEN DE FONDO 2: Ocupa toda la tarjeta de WhatsApp por detrás del logo y botón -->
+                        <div class="absolute inset-0 pointer-events-none opacity-50 z-0">
+                            <img src="img/yo.jpg" alt="Fondo tarjeta" class="w-full h-full object-cover ">
+                        </div>
+
+                        <!-- Contenido de la tarjeta (con z-10 para quedar al frente) -->
+                        <div class="grid-cols-2 justify-items-center p-5 relative z-10 h-full flex flex-col justify-between">
+                            
+                            
+                            <div class="grid grid-cols-1 mt-20 p-5">
+                                <div class="p-3 text-stone-800 text-xs font-semibold tracking-wider">LLÁMANOS O ENVÍANOS UN MENSAJE PARA MÁS INFORMACIÓN</div>
+                                <button class="bg-green-600 rounded-lg h-30 text-white w-full text-xl transition-opacity duration-300 active:opacity-50 w-[calc(50%-1rem)] max-w-sm rounded-md shadow-md overflow-hidden transition-all duration-200 cursor-pointer hover:shadow-xl active:scale-95 p-1" type="button">   
+                                    <a href="https://wa.link/hkue80" class="block w-full h-full py-2"> Escríbenos al Whatsapp </a>  
                                 </button>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </form>
-    </section>
-
-    <footer class="bg-white border-t border-stone-200 py-8 text-center text-xs uppercase tracking-widest text-stone-500">
+    </div>
+</section>
+    <footer class=" bg-white border-t border-stone-200 py-8 text-center text-xs uppercase tracking-widest text-stone-500">
         <p>&copy; 2026 Jesús Salvatierra PH. Todos los derechos reservados.</p>
+        
     </footer>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.link/hkue80" target="_blank" rel="noopener noreferrer" 
+       class="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-xl transition-all duration-300 hover:bg-green-600 hover:scale-110 active:scale-95 group">
+        <!-- Efecto de ondas expansivas de fondo -->
+        <span class="absolute inset-0 rounded-full bg-green-500 opacity-40 animate-ping group-hover:animate-none"></span>
+        <!-- Icono de Font Awesome -->
+        <i class="fa-brands fa-whatsapp text-3xl relative z-10"></i>
+    </a>
 
     <script>
         // Lógica del Menú Móvil
@@ -430,8 +431,6 @@
             setInterval(cambiarImagen, tiempoCambio);
         }
         });
-
-        
     </script>
     <script>
         document.getElementById('wedding-contact-form').addEventListener('submit', function(e) {
