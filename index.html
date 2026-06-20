@@ -49,7 +49,7 @@
         </div>
     </nav>
     <div class="p-[40px]" ></div>
-    <section id="inicio" class=" sm:h-screen  h-full relative flex items-center justify-center bg-stone-900 text-white overflow-hidden">
+    <section id="inicio" class=" sm:h-screen  h-screen relative flex items-center justify-center bg-stone-900 text-white overflow-hidden">
         <div id="slider-background" class="absolute inset-0 opacity-40">
             <img class="slider-img active" src="img/bailarina2.jpg" alt="Fondo 1">
             <img class="slider-img" src="img/portada2.jpg" alt="Fondo 2">
@@ -58,7 +58,7 @@
 
         <div class="relative z-10 text-center max-w-3xl p-4 ">
             <span class="text-xs uppercase tracking-[0.3em] text-stone-300 block mb-3">Fotografía Profesional</span>
-            <h1 class="font-serif text-2xl md:text-2xl font-light mb-6 leading-tight">Capturando la esencia de profesionales, artistas y marcas</h1>
+            <h1 class="font-serif text-2xl md:text-md text-sm font-light mb-6 leading-tight">Capturando la esencia de profesionales, artistas y marcas</h1>
             <img src="img/logo_salvatierraph.png" alt="Logo" class="mx-auto mt-6 w-1/2">    
         </div>
     </section>
@@ -413,7 +413,7 @@
         let indexActual = 0;
         
         // Tiempo en milisegundos que dura cada imagen en pantalla (6000ms = 6 segundos)
-        const tiempoCambio = 4000; 
+        const tiempoCambio = 2000; 
 
         function cambiarImagen() {
             // Quita la opacidad a la imagen actual
